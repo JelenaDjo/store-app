@@ -9,11 +9,11 @@
     <ul class="navbar-nav">
 
       <li class="nav-item active">
-        <router-link class="nav-link" to="customers"> App Customers </router-link>
+        <router-link class="nav-link" to="customers">  Customers </router-link>
       </li>
 
       <li class="nav-item">
-        <router-link class="nav-link" to="products"> App Products</router-link>
+        <router-link class="nav-link" to="products"> Products</router-link>
       </li>
      
     

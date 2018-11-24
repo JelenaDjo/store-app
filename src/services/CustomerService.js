@@ -16,6 +16,11 @@ class CustomerService {
     remove (customer){
         customers.splice(customers.indexOf(customer), 1)
     }
+    add(customer){
+        customer.id = nextId
+        customers.push(customer)
+        nextId++
+    }
 }
 
 const customerService = new CustomerService()
